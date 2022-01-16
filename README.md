@@ -1,20 +1,13 @@
 # TerminalLinux
 1. Посмотреть где я - `pwd`
 2. Создать папку - `mkdir foldername`
-3) Зайти в папку 
-cd c:/users/vadim/desktop/gitbash/foldername
-4) Создать 3 папки 
-mkdir new papka git
-5) Зайти в любоую папку 
-cd git
-6) Создать 5 файлов (3 txt, 2 json)
-touch vadim.txt marina.txt gleb.txt igor.json lev.json
-7) Создать 3 папки 
-mkdir ivi okko kinopoisk
-8) Вывести список содержимого папки 
-ls -la
-9) Открыть любой txt файл 
-vi C:/Users/Vadim/Desktop/gitbash/foldername/git/vadim.txt
+3. Зайти в папку - `cd /c/users/vadim/desktop/gitbash/foldername`
+4. Создать 3 папки - `mkdir new papka git`
+5. Зайти в любоую папку - `cd git`
+6. Создать 5 файлов (3 txt, 2 json)- `touch vadim.txt marina.txt gleb.txt igor.json lev.json`
+7. Создать 3 папки - `mkdir ivi okko kinopoisk`
+8. Вывести список содержимого папки - `ls -la`
+9. Открыть любой txt файл -`vi C:/Users/Vadim/Desktop/gitbash/foldername/git/vadim.txt`
 10)  Написать туда что-нибудь, любой текст. 
 Привет мир!
 11) + сохранить и выйти. 

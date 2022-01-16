@@ -1,6 +1,6 @@
 # TerminalLinux
 __________________________________________________________________________________
-## **Задание №1 - [Linux Terminal (GitBash)](https://github.com/BrazhnikovJee/TerminalLinux/blob/13c8ee6fcfa3657140b151c459cba2813db873c0/TerminalLinux_HW_One.txt)**
+## **Задание №1 - [Linux Terminal (GitBash)](https://github.com/BrazhnikovJee/TerminalLinux/blob/e4211d00adb5e4aa42b61c083481a950f301e23b/TerminalLinux_HW_One.txt)**
 __________________________________________________________________________________
 1. Посмотреть где я. - `pwd`
 2. Создать папку. - `mkdir foldername`

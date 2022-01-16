@@ -1,4 +1,6 @@
 # TerminalLinux
+________________________________________________
+## **_Задание №1 - Linux Terminal (GitBash)_**
 1. Посмотреть где я. - `pwd`
 2. Создать папку. - `mkdir foldername`
 3. Зайти в папку. - `cd C:/users/vadim/desktop/gitbash/foldername`
@@ -9,7 +11,7 @@
 8. Вывести список содержимого папки. - `ls -la`
 9. Открыть любой txt файл. -`vi C:/Users/Vadim/Desktop/gitbash/foldername/git/vadim.txt`
 10. Написать туда что-нибудь, любой текст. - `i + Привет мир!`
-11. Сохранить и выйти. - `Esq + :wq`
+11. Сохранить и выйти. - `Esc + :wq`
 12. Выйти из папки на уровень выше. - `cd ..`
 13. Переместить любые 2 файла, которые вы создали, в любую другую папку. - `mv igor.json lev.json C:/Users/Vadim/Desktop/gitbash/foldername/git/ivi`
 14. Скопировать любые 2 файла, которые вы создали, в любую другую папку. - `cp gleb.txt marina.txt c:/users/vadim/desktop/gitbash/foldername/git/ivi`

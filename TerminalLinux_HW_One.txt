@@ -24,17 +24,11 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Задание №2 - Отправить http запрос на сервер. http://162.55.220.72:5005/terminal-hw-request
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Запрос: curl http://162.55.220.72:5005/terminal-hw-request
-Ответ:   
-% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-100   237  100   237    0     0   1587      0 --:--:-- --:--:-- --:--:--  1601{"Intro":"Hello!! This is your the first response from server","Tasks":{"Task_1":"Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]}}
+#Запрос: curl http://162.55.220.72:5005/terminal-hw-request
+#Ответ: {"Intro":"Hello!! This is your the first response from server","Tasks":{"Task_1":"Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]}}
 
-Запрос: curl http://162.55.220.72:5005/get_method?name=Vadim&age=22
-Ответ:   
-% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-100    15  100    15    0     0     96      0 --:--:-- --:--:-- --:--:--    96["Vadim","22"]
+#Запрос: curl http://162.55.220.72:5005/get_method?name=Vadim&age=22
+#Ответ: ["Vadim","22"]
 
 
 

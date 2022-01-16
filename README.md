@@ -23,24 +23,24 @@ ________________________________________________________________________________
 19. Просмотреть содержимое длинного файла (команда less) изучите как она работает. - `less C:/Users/Vadim/Desktop/gitbash/foldername/git/vadim.txt`
 20. Вывести дату и время. - `date`
 _________________________________________________________________________________________________________________________________________________________________________________
-Задание №2 - Отправить http запрос на сервер. http://162.55.220.72:5005/terminal-hw-request
+Задание №2 - Отправить http запрос на сервер.
 _________________________________________________________________________________________________________________________________________________________________________________
-#Запрос: curl http://162.55.220.72:5005/terminal-hw-request
-#Ответ: {"Intro":"Hello!! This is your the first response from server","Tasks":{"Task_1":"Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]}}
+Запрос: `curl http://162.55.220.72:5005/terminal-hw-request`
+Ответ: `{"Intro":"Hello!! This is your the first response from server","Tasks":{"Task_1":"Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]}}`
 
-#Запрос: curl http://162.55.220.72:5005/get_method?name=Vadim&age=22
-#Ответ: ["Vadim","22"]
+Запрос: `curl http://162.55.220.72:5005/get_method?name=Vadim&age=22`
+Ответ: `["Vadim","22"]`
 _________________________________________________________________________________________________________________________________________________________________________________
 Задание №3 - Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
 _________________________________________________________________________________________________________________________________________________________________________________
-Файл - Scipt_HW_TerminalLinux.sh
-Команда - ./Scipt_HW_TerminalLinux.sh
+Файл - [Scipt_HW_TerminalLinux.sh](link)
+Команда - `./Scipt_HW_TerminalLinux.sh`
 Скрипт:
-#!/bin/bash
+`#!/bin/bash
 cd C:/Users/Vadim/Desktop/test/test1
 mkdir lesson work class
 cd C:/Users/Vadim/Desktop/test/test1/work
 touch 1.txt 2.txt 3.txt one.json two.json
 mkdir miron roma petr
 ls -la
-mv one.json two.json roma
+mv one.json two.json roma`

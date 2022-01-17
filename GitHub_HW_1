@@ -20,8 +20,8 @@ git add new.json git commit -m "Изменил данные в new.json" git pus
 preferences.json
 #10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON. 
 vi preferences.json + 'i' + 'Esc' + :wq
-#11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате 
-JSON - cat > skils.json
+#11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON - 
+cat > skils.json
 {
 "a":"GitBash",
 "b":"GitHub",

@@ -22,6 +22,7 @@ preferences.json
 vi preferences.json
 #11. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON - 
 touch skills.json
+vi skills.json
 #12. Отправить сразу 2 файла на внешний репозиторий. - 
 git add . 
 git commit -m "13 and 14 and 15" 
@@ -101,9 +102,9 @@ git push
 touch preferences.txt
 #10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
 vi preferences.txt
-#11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
-touch.txt
-vi touch.txt
+#11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+touch skills.txt
+vi skills.txt
 #12. Сделать коммит в одну строку.
 git add .
 git commit -m “new file”
@@ -117,4 +118,3 @@ Edit this file
 Commit changes
 #17. Синхронизировать внешний и локальный репозиторий TXT
 git pull
-

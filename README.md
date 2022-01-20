@@ -134,6 +134,7 @@ ________________________________________________________________________________
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main - `Compare & pull request => base: main, compare:CheckLists => Create pull request => Merge pull request => Confirm merge`
 10. Синхронизировать Внешнюю и Локальную ветки Main - `git checkout main; git pull`
 
-## 📫 How to reach me
+## 📫 Связь со мной
+_________________________________________________________________________________________________________________________________________________________________________________
 [![Telegram](https://img.shields.io/badge/-Telegram-000000?style=for-the-badge&logo=telegram&logoColor=00ff88)](https://t.me/VVBrazhnikov)
 [![LinkedIn](https://img.shields.io/badge/-linkedin-000000?style=for-the-badge&logo=linkedin&logoColor=3955a8)](https://www.linkedin.com/in/vvbrazhnikov/)

@@ -42,6 +42,7 @@ ________________________________________________________________________________
 Команда - `./Script_HW_TerminalLinux.sh`
 
 Скрипт - 
+https://github.com/BrazhnikovJee/TerminalLinux/blob/37473b93c418910cbe8f51da3fb728017f102f6c/Script_HW_TerminalLinux.sh
 `#!/bin/bash
 cd C:/Users/Vadim/Desktop/test/test1
 mkdir lesson work class
@@ -62,11 +63,11 @@ ________________________________________________________________________________
 5. Закоммитить файл. - `git commit -m "json test"`
 6. Отправить файл на внешний GitHub репозиторий. - `git push`
 7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON. - `vi new.json`
-8. Отправить изменения на внешний репозиторий. - `git add new.json git commit -m "Изменил данные в new.json" git push`
+8. Отправить изменения на внешний репозиторий. - `git add new.json; git commit -m "Изменил данные в new.json" git push`
 9. Создать файл preferences.json. - `preferences.json`
 10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON. - `vi preferences.json`
 11. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON. - `touch skills.json` `vi skills.json`
-12. Отправить сразу 2 файла на внешний репозиторий. - `git add .``git commit -m "13 and 14 and 15"``git push`
+12. Отправить сразу 2 файла на внешний репозиторий. - `git add .; git commit -m "13 and 14 and 15"``git push`
 13. На веб интерфейсе создать файл. - `Сreate New File`
 14. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON. - `Edit this file` 
 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе. - `Commit changes`
@@ -74,18 +75,18 @@ ________________________________________________________________________________
 _________________________________________________________________________________________________________________________________________________________________________________
 XML
 _________________________________________________________________________________________________________________________________________________________________________________
-1. Создать внешний репозиторий c названием XML. - `Зайти в раздел Repositories на Github. Нажать "NEW". Создать репозиторий "XML"`
+1. Создать внешний репозиторий c названием XML. - `Зайти в раздел Repositories на Github; Нажать "NEW". Создать репозиторий "XML"`
 2. Клонировать репозиторий XML на локальный компьютер. - `git clone https://github.com/BrazhnikovJee/XML.git`
 3. Внутри локального XML создать файл “new.xml”. - `touch new.xml`
 4. Добавить файл под гит. - `git add new.xml`
 5. Закоммитить файл. - `git commit -m “test”`
 6. Отправить файл на внешний GitHub репозиторий. - `git push`
 7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML. - `vi new.xml`
-8. Отправить изменения на внешний репозиторий. - `git add new.xml git commit -m "Modifided file" git push`
+8. Отправить изменения на внешний репозиторий. - `git add new.xml; git commit -m "Modifided file" git push`
 9. Создать файл preferences.xml. - `touch preferences.xml`
 10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML. - `vi preferences.xml`
 11. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML. - `touch skills.xml vi skills.xml`
-12. Сделать коммит в одну строку. - `git add . git commit -m “new file”`
+12. Сделать коммит в одну строку. - `git add .; git commit -m “new file”`
 13. Отправить сразу 2 файла на внешний репозиторий. - `git push`
 14. На веб интерфейсе создать файл bug_report.xml. - `Сreate New File`
 15. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML. - `Edit this file`
@@ -101,34 +102,34 @@ ________________________________________________________________________________
 5. Закоммитить файл. - `git commit -m "New File"`
 6. Отправить файл на внешний GitHub репозиторий. - `git push`
 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT. - `vi new.txt`
-8. Отправить изменения на внешний репозиторий. - `git add new.txt git commit -m “Modifided file” git push`
+8. Отправить изменения на внешний репозиторий. - `git add new.txt; git commit -m “Modifided file” git push`
 9. Создать файл preferences.txt. - `touch preferences.txt`
 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT. - `vi preferences.txt`
-11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT. - `touch skills.txt vi skills.txt`
-12. Сделать коммит в одну строку. - `git add . git commit -m “new file”`
+11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT. - `touch skills.txt; vim skills.txt`
+12. Сделать коммит в одну строку. - `git add .; git commit -m “new file”`
 13. Отправить сразу 2 файла на внешний репозиторий. - `git push`
 14. На веб интерфейсе создать файл bug_report.txt. - `Create new file`
 15. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT. - `Edit this file`
 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе. - `Commit changes`
 17. Синхронизировать внешний и локальный репозиторий TXT. - `git pull`
 _________________________________________________________________________________________________________________________________________________________________________________
-[## Задание по Git №2](link)
+## [Задание по Git №2](link)
 _________________________________________________________________________________________________________________________________________________________________________________
 1. На локальном репозитории сделать ветки для:
-- Postman
-- Jmeter
-- CheckLists
-- Bag Reports
-- SQL
-- Charles
-- Mobile testing
+- Postman -  `git branch Postman`
+- Jmeter - `git branch Jmeter`
+- CheckLists - `git branch CheckLists`
+- Bag Reports - `git branch Bug_Reports`
+- SQL - `git branch SQL`
+- Charles - `git branch Charles`
+- Mobile testing - `git branch Mobile_testing`
+2. Запушить все ветки на внешний репозиторий - `git push --all`
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта - `git checkout Bug_Reports ; touch BugReports.txt ;vim BugReports.txt`
+4. Запушить структуру багрепорта на внешний репозиторий - `git add .; git commit -m "new file"; git push origin Bug_Reports`
+5. Вмержить ветку Bag Reports в Main - `git checkout main; git merge Bug_Reports`
+6. Запушить main на внешний репозиторий. `git pull; git push`
+7. В ветке CheckLists набросать структуру чек листа. - `git checkout CheckLists; touch CheckLists.txt; vi CheckLists.txt`
+8. Запушить структуру на внешний репозиторий - `git add .; git commit -m "new"; git push origin CheckLists`
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main - `Compare & pull request => base: main, compare:CheckLists => Create pull request => Merge pull request => Confirm merge`
+10. Синхронизировать Внешнюю и Локальную ветки Main - `git checkout main; git pull`
 
-2. Запушить все ветки на внешний репозиторий
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
-4. Запушить структуру багрепорта на внешний репозиторий
-5. Вмержить ветку Bag Reports в Main
-6. Запушить main на внешний репозиторий.
-7. В ветке CheckLists набросать структуру чек листа.
-8. Запушить структуру на внешний репозиторий
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
-10. Синхронизировать Внешнюю и Локальную ветки Main

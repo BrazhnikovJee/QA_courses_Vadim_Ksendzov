@@ -1,0 +1,146 @@
+Создать запросы в Postman. 
+Protocol: http
+IP: 162.55.220.72
+Port: 5005
+=============================
+1.
+Method: GET
+EndPoint: /get_method
+request url params: 
+name: str
+age: int
+
+
+Ответ:
+[
+    "Vadim",
+    "22"
+]
+=============================
+2.
+Method: POST
+EndPoint: /user_info_3
+request form data: 
+name: str
+age: int
+salary: int
+
+
+Ответ:
+{
+"age": "22",
+"family": {
+          "children": [["Alex",24],["Kate",12]],
+          "u_salary_1_5_year": 4000
+          },
+"name": "Vadim",
+"salary": 1000
+}
+=============================
+3.
+Method: GET
+EndPoint: /object_info_1
+request url params: 
+name: str
+age: int
+weight: int
+
+Ответ:
+{
+"age": 22,
+"daily_food": 0.72,
+"daily_sleep": 150.0,
+"name": "Vadim"
+}
+=============================
+4.
+Method: GET
+EndPoint: /object_info_2
+request url params: 
+name: str
+age: int
+salary: int
+
+
+Ответ:
+{
+"person": {
+        "u_age": 22,
+        "u_name": ["Vadim",60,22],
+        "u_salary_5_years": 252.0
+          },
+"qa_salary_after_1.5_year": 198.0,
+"qa_salary_after_12_months": 162.0,
+"qa_salary_after_3.5_years": 228.0,
+"qa_salary_after_6_months": 120,
+"start_qa_salary": 60
+}
+=============================
+5.
+Method: GET
+EndPoint: /object_info_3
+request url params: 
+name: str
+age: int
+salary: int
+
+
+Ответ:
+{
+"age": "22",
+"family": {
+          "children": [["Alex",24],["Kate",12]],
+          "pets": {
+                  "cat": {
+                          "age": 3,
+                          "name": "Sunny"
+                          },
+                   "dog": {
+                          "age": 4,
+                          "name": "Luky"
+                          }
+                  },
+          "u_salary_1_5_year": 240
+          },
+"name": "Vadim",
+"salary": 60
+}
+=============================
+6.
+Method: GET
+EndPoint: /object_info_4
+request url params: 
+name: str
+age: int
+salary: int
+
+
+Ответ:
+{
+"age": 22,
+"name": "Vadim",
+"salary": [60,"120","180"]
+}
+=============================
+7.
+Method: POST
+EndPoint: /user_info_2
+request form data: 
+name: str
+age: int
+salary: int
+
+
+Ответ:
+{
+"person": {
+          "u_age": 22,
+          "u_name": ["Vadim",1000,22],
+          "u_salary_5_years": 4200.0
+          },
+"qa_salary_after_1.5_year": 3300.0,
+"qa_salary_after_12_months": 2700.0,
+"qa_salary_after_3.5_years": 3800.0,
+"qa_salary_after_6_months": 2000,
+"start_qa_salary": 1000
+}

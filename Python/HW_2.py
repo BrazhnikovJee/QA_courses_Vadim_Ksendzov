@@ -91,7 +91,7 @@ if currency_convertor:
     #                     31.5 Сделать elif в котором будет условие: если target_currency равен ‘uah’, то в теле этого if в значении переменной currency_result высчитать сколько долларов получится при target_currency_amount и usd_uah_rate. Результат вывести в консоль (target_currency_amount, uah_item, “=”, currency_result, uah_item)
     elif target_currency == 'uah':
             currency_result = target_currency_amount / usd_uah_rate
-            print(target_currency_amount, uah_item, "=", currency_result, uah_item)
+            print(target_currency_amount, uah_item, "=", currency_result, usd_item)
 #                     31.6 Сделать elif с остальными валютами
     elif target_currency == 'chf':
         currency_result = target_currency_amount / usd_chf_rate

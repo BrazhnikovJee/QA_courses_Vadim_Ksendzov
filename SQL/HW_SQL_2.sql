@@ -11,17 +11,17 @@ where s.monthly_salary < 2000;
 select s.monthly_salary FROM employee_salary es
 left join salary s on s.id = es.salary_id
 left join employees e on es.employee_id = e.id
-where es.employee_id  is null;
+where e.employee_name is null;
 -- 4. Вывести все зарплатные позиции  меньше 2000 но работник по ним не назначен. (ЗП есть, но не понятно кто её получает.)
-select s.monthly_salary FROM employee_salary es
+select s.monthly_salary, e.employee_name FROM employee_salary es
 left join salary s on s.id = es.salary_id
 left join employees e on es.employee_id = e.id
 where e.employee_name is null and s.monthly_salary < 2000;
 -- 5. Найти всех работников кому не начислена ЗП.
-select * FROM employee_salary es
-left join salary s on s.id = es.salary_id
-left join employees e on es.employee_id = e.id
-where es.salary_id  is null;
+select s.monthly_salary, e.employee_name FROM employee_salary es
+join salary s on s.id = es.salary_id
+join employees e on es.employee_id = e.id
+where (es.salary_id is null) and (es.employee_id is not null);
 -- 6. Вывести всех работников с названиями их должности.
 select e.employee_name, r.role_name  from roles_employee re
 left join roles r on re.role_id = r.id

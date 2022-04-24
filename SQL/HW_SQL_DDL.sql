@@ -239,17 +239,3 @@ values (7, 2),
 	   (46, 9),
 	   (57, 2),
 	   (19, 11);
-
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
